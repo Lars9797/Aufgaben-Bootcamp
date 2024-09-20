@@ -15,7 +15,7 @@ public class AscIIWquare {
             groesse = scanner.nextInt();
         }
 
-
+        //Quadrat
         int zeile = 0;          // Äußere Schleife für die Zeilen
         while (zeile < groesse) {
 
@@ -26,6 +26,19 @@ public class AscIIWquare {
             }
             System.out.println(); // Neue Zeile nach jeder Reihe von Sternen
             zeile++;
+
+            //Dreieck
+            int zeile2 = 1;              // Äußere Schleife für die Zeilen
+            while (zeile2 <= groesse) {
+
+                int spalte2 = 0;         // Innere Schleife für die Sterne in jeder Zeile
+                while (spalte2 < zeile) {
+                    System.out.print("* ");
+                    spalte2++;
+                }
+                System.out.println(); // Neue Zeile nach jeder Reihe von Sternen
+                zeile2++;
+            }
         }
     }
 }
