@@ -7,8 +7,7 @@ public class Geometry {
         Scanner scanner = new Scanner(System.in);
 
         // Teilaufgabe 1: Berechnung der Fläche eines Kreises
-        System.out.println("Teilaufgabe 1: Berechnung der Fläche eines Kreises");
-
+        
         double radius = -1;
         while (radius <= 0) {
             System.out.println("Bitte den Radius des Kreises eingeben (größer als 0):");
@@ -25,7 +24,7 @@ public class Geometry {
 
 
         // Teilaufgabe 2: Berechnung der Fläche eines Rechtecks
-        System.out.println("Teilaufgabe 2: Berechnung der Fläche eines Rechtecks");
+
 
         double laenge = -1;
         while (laenge <= 0) {
