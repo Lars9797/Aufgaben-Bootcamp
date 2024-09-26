@@ -23,6 +23,6 @@ public class Schaltjahr {
             System.out.println(jahr + " ist kein Schaltjahr.");
         }
 
-        scanner.close(); // Scanner schließen
+        scanner.close();
     }
 }
