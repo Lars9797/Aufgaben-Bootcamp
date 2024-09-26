@@ -35,6 +35,6 @@ public class QuadratischeGleichung {
             System.out.println("Die Gleichung hat keine Lösung.");
         }
 
-        scanner.close(); // Scanner schließen
+        scanner.close();
     }
 }
