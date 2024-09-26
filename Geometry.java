@@ -23,11 +23,11 @@ public class Geometry {
         double flaecheKreis = Math.PI * (radius * radius);
         System.out.printf("Die Fläche des Kreises beträgt: %.2f\n\n", flaecheKreis);
 
-        
+
         // Teilaufgabe 2: Berechnung der Fläche eines Rechtecks
         System.out.println("Teilaufgabe 2: Berechnung der Fläche eines Rechtecks");
 
-        double laenge = -1; // initialer ungültiger Wert
+        double laenge = -1;
         while (laenge <= 0) {
             System.out.println("Bitte die Länge des Rechtecks eingeben (größer als 0):");
             laenge = scanner.nextDouble();
