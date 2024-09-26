@@ -11,7 +11,6 @@ public class Geometry {
 
         double flaeche = Math.PI * (radius * radius); // Fläche des Kreises berechnen
 
-        // Das Formatierungszeichen %f für Gleitkommazahlen hinzufügen
         System.out.printf("Die Fläche des Kreises beträgt: %.2f", flaeche);
 
 
