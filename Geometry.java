@@ -1,5 +1,3 @@
-package com.btcag.bootcamp;
-
 import java.util.Scanner;
 
 public class Geometry {
@@ -8,14 +6,15 @@ public class Geometry {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("bitte eine Zahl groeßer Null eingeben; Kreis berechnen");
+        System.out.println("Bitte eine Zahl größer als Null eingeben; Kreis berechnen");
         double radius = scanner.nextDouble();
 
-        double flaeche = Math.PI * (radius*radius); //fläche des kreises berrechnen
+        double flaeche = Math.PI * (radius * radius); // Fläche des Kreises berechnen
 
-        System.out.printf("Die Fläche des Kreises beträgt: ", flaeche);
+        // Das Formatierungszeichen %f für Gleitkommazahlen hinzufügen
+        System.out.printf("Die Fläche des Kreises beträgt: %.2f", flaeche);
 
-
+        scanner.close(); // Scanner nach Gebrauch schließen
     }
 
 }
