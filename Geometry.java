@@ -14,7 +14,7 @@ public class Geometry {
         // Das Formatierungszeichen %f für Gleitkommazahlen hinzufügen
         System.out.printf("Die Fläche des Kreises beträgt: %.2f", flaeche);
 
-        scanner.close(); // Scanner nach Gebrauch schließen
+
     }
 
 }
