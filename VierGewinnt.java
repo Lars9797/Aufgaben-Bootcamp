@@ -124,6 +124,7 @@ public class VierGewinnt {
             }
         }
 
+
         // Diagonal von rechts nach links
         for (int i = 0; i < 3; i++) {
             for (int j = 3; j < 7; j++) {
